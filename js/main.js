@@ -17,12 +17,7 @@ function equal(){
     if(document.calculator.result.value == "Infinity"){
         document.calculator.result.value = "can't divide by 0"
     }
-    else if(    document.calculator.result.value = "NaN"){
-        document.calculator.result.value = "Error"
-
-
-    }
-    
+        
     
 
       
