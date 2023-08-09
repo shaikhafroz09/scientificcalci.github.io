@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <form action="" name="calculator">
+    <div class="calculator" name="calculator">
+        <div class="input" >
+            <input style="text-align: right;" type="text" name="result" placeholder="0">
+        </div>
+        <div class="line1">
+            <button type="button" value="" onclick="rmv()" class="operator">AC</button>
+            <button type="button"  onclick="delet()" class="operator">DEL</button>
+            <button type="button" class="operator" value="%" onclick="number(value)">%</button>
+            <button type="button" class="operator" value="/" onclick="number(value)">/</button>
+        </div>
+        <div class="line2">
+            <button type="button" class="operator" value="sin" onclick="sin()">sin</button>
+            <button type="button" class="operator" value="cos" onclick="cos()">cos</button>
+            <button type="button" class="operator" value="tan" onclick="tan()">tan</button>
+            <button type="button" class="operator" value="log" onclick="log()">log</button>
+        </div>
+        <div class="line3">
+            <button type="button" value="x^2" class="operator" onclick="sqrt()">x <sup>2</sup></button>
+            <button type="button" value="x^3" class="operator" onclick="cubbed()">x <sup>3</sup></button>
+            <button type="button" value="sqrt2" class="operator" onclick="sqrt2()">&radic;</button>
+            <button type="button" value="sqrt3" class="operator" onclick="sqrt3()">&#8731;</button>
+        </div>
+        <div class="line4">
+            <button type="button"  value="7" onclick="number(value)">7</button>
+            <button type="button"  value="8" onclick="number(value)">8</button>
+            <button type="button"  value="9" onclick="number(value)">9</button>
+            <button type="button" class="operator" value="*" onclick="number(value)">*</button>
+        </div>
+        <div class="line5">
+            <button type="button"  value="4" onclick="number(value)">4</button>
+            <button type="button"  value="5" onclick="number(value)">5</button>
+            <button type="button"  value="6" onclick="number(value)">6</button>
+            <button type="button" class="operator" value="-" onclick="number(value)">-</button>
+        </div>
+        <div class="line5">
+            <button type="button"  value="3" onclick="number(value)">3</button>
+            <button type="button"  value="2" onclick="number(value)">2</button>
+            <button type="button"  value="1" onclick="number(value)">1</button>
+            <button type="button" class="operator" value="+" onclick="number(value)">+</button>
+        </div>
+        <div class="line6">
+            <button type="button"  value="00" onclick="number(value)">00</button>
+            <button type="button"  value="0" onclick="number(value)">0</button>
+            <button type="button"  value="." onclick="number(value)">.</button>
+            <button type="button" class="equal" value="=" onclick="equal()">=</button>
+        </div>
+    </div>
+    </form>
+    
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
